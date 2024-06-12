@@ -83,7 +83,7 @@ class _LoginState extends State<Login> {
                     Navigator.pop(context);
                   },
                   child: Text("Ok"),
-                  style: ElevatedButton.styleFrom(primary: Colors.green),
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
                 )
               ],
             );
